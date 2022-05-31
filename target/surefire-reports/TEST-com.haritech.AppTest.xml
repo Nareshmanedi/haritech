@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.haritech.AppTest" time="0.032" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="18"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\manee\haritech\target\test-classes;C:\Users\manee\haritech\target\classes;C:\Users\manee\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\manee\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\manee\.m2\repository\org\testcontainers\mysql\1.17.2\mysql-1.17.2.jar;C:\Users\manee\.m2\repository\org\testcontainers\jdbc\1.17.2\jdbc-1.17.2.jar;C:\Users\manee\.m2\repository\org\testcontainers\database-commons\1.17.2\database-commons-1.17.2.jar;C:\Users\manee\.m2\repository\org\testcontainers\testcontainers\1.17.2\testcontainers-1.17.2.jar;C:\Users\manee\.m2\repository\org\slf4j\slf4j-api\1.7.35\slf4j-api-1.7.35.jar;C:\Users\manee\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\manee\.m2\repository\org\rnorth\duct-tape\duct-tape\1.0.8\duct-tape-1.0.8.jar;C:\Users\manee\.m2\repository\org\jetbrains\annotations\17.0.0\annotations-17.0.0.jar;C:\Users\manee\.m2\repository\com\github\docker-java\docker-java-api\3.2.13\docker-java-api-3.2.13.jar;C:\Users\manee\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\manee\.m2\repository\com\github\docker-java\docker-java-transport-zerodep\3.2.13\docker-java-transport-zerodep-3.2.13.jar;C:\Users\manee\.m2\repository\com\github\docker-java\docker-java-transport\3.2.13\docker-java-transport-3.2.13.jar;C:\Users\manee\.m2\repository\net\java\dev\jna\jna\5.8.0\jna-5.8.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="18"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-18\bin"/>
+    <property name="sun.java.command" value="C:\Users\manee\AppData\Local\Temp\surefire14689826444028787312\surefirebooter2029504202624345760.jar C:\Users\manee\AppData\Local\Temp\surefire14689826444028787312 2022-05-31T18-58-30_335-jvmRun1 surefire18192317134104235482tmp surefire_05722334396822862167tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\manee\haritech\target\test-classes;C:\Users\manee\haritech\target\classes;C:\Users\manee\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\manee\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\manee\.m2\repository\org\testcontainers\mysql\1.17.2\mysql-1.17.2.jar;C:\Users\manee\.m2\repository\org\testcontainers\jdbc\1.17.2\jdbc-1.17.2.jar;C:\Users\manee\.m2\repository\org\testcontainers\database-commons\1.17.2\database-commons-1.17.2.jar;C:\Users\manee\.m2\repository\org\testcontainers\testcontainers\1.17.2\testcontainers-1.17.2.jar;C:\Users\manee\.m2\repository\org\slf4j\slf4j-api\1.7.35\slf4j-api-1.7.35.jar;C:\Users\manee\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\manee\.m2\repository\org\rnorth\duct-tape\duct-tape\1.0.8\duct-tape-1.0.8.jar;C:\Users\manee\.m2\repository\org\jetbrains\annotations\17.0.0\annotations-17.0.0.jar;C:\Users\manee\.m2\repository\com\github\docker-java\docker-java-api\3.2.13\docker-java-api-3.2.13.jar;C:\Users\manee\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\manee\.m2\repository\com\github\docker-java\docker-java-transport-zerodep\3.2.13\docker-java-transport-zerodep-3.2.13.jar;C:\Users\manee\.m2\repository\com\github\docker-java\docker-java-transport\3.2.13\docker-java-transport-3.2.13.jar;C:\Users\manee\.m2\repository\net\java\dev\jna\jna\5.8.0\jna-5.8.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\manee"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-03-22"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-18"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\manee\haritech"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\manee\AppData\Local\Temp\surefire14689826444028787312\surefirebooter2029504202624345760.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="18+36-2087"/>
+    <property name="user.name" value="manee"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\manee\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\manee\AppData\Local\Temp\"/>
+    <property name="java.version" value="18"/>
+    <property name="user.dir" value="C:\Users\manee\haritech"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-18\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Users\manee\Downloads\Applications\apache-maven-3.8.5-bin\apache-maven-3.8.5\bin;C:\Users\manee\AppData\Local\Microsoft\WindowsApps;;C:\Users\manee\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="18+36-2087"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="62.0"/>
+  </properties>
+  <testcase name="shouldAnswerWithTrue" classname="com.haritech.AppTest" time="0"/>
+</testsuite>
